@@ -9,7 +9,7 @@ git remote add origin https://github.repository.address
 git push -u origin master
 ```
 
-## Restart Setup
+## Rebase Setup
 when you see git command error below, it will help fix the error
 > git error: failed to push some refs to 'master'
 ```bash
