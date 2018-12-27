@@ -10,7 +10,7 @@ git push -u origin master
 ```
 
 ## Restart Setup
-when you see git command error below, it will help fix the error \
+when you see git command error below, it will help fix the error
 > git error: failed to push some refs to 'master'
 ```bash
 git pull --rebase origin master
