@@ -16,3 +16,23 @@ when you see git command error below, it will help fix the error
 git pull --rebase origin master
 git push origin master
 ```
+
+```bash
+git status
+```
+
+```bash
+git push
+```
+
+```bash
+git pull
+```
+
+```bash
+git reset
+
+git reset --hard <commit>
+git reset --hard origin/master
+```
+
