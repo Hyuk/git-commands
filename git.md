@@ -10,6 +10,11 @@ git push -u origin master
 ```
 
 ## Instructions
+* Versio Check
+```bash
+$ git --version
+```
+
 * Initialize Local Git Repository
 ```bash
 $ git init
@@ -18,6 +23,11 @@ $ git init
 * Add Files to Index
 ```bash
 $ git add <file>
+```
+
+* Remove FIles to Index
+```bash
+$ git rm --cached <file>
 ```
 
 * Check Status Of Working Tree
@@ -43,6 +53,16 @@ $ git pull
 * Clone Repository Into A New Directory
 ```bash
 $ git clone
+```
+
+* User Name setup
+```bash
+$ git config --global user.name 'Hyuk'
+```
+
+* User Email Setup
+```bash
+$ git config --global user.email 'hyukho83@gmail.com'
 ```
 
 ## Rebase Setup
