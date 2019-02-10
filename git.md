@@ -74,18 +74,6 @@ git push origin master
 ```
 
 ```bash
-git status
-```
-
-```bash
-git push
-```
-
-```bash
-git pull
-```
-
-```bash
 git reset
 
 git reset --hard <commit>
