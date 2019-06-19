@@ -80,3 +80,10 @@ git reset --hard <commit>
 git reset --hard origin/master
 ```
 
+## Gibhub에 잘못 올린 파일을 지우는 방법
+```bash
+$ git rm --cached first_project/lib/home.dart
+$ git commit -m "Fixed untracked files"
+$ git push -u origin master
+```
+
