@@ -3,10 +3,11 @@
 ## First Setup
 ```bash
 git init
-git add file.md
+git add .
 git commit -m "some comment"
-git remote add origin https://github.repository.address
-git push -u origin master
+git branch -M main
+git remote add origin https://github.repository.address.git
+git push -u origin main
 ```
 
 ## Instructions
