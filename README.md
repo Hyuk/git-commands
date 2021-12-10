@@ -11,7 +11,7 @@ git push -u origin main
 ```
 
 ## Instructions
-* Versio Check
+* Version Check
 ```bash
 $ git --version
 ```
