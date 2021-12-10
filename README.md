@@ -56,6 +56,11 @@ $ git pull
 $ git clone
 ```
 
+* list out git settings
+```base
+$ git config --list
+```
+
 * User Name setup
 ```bash
 $ git config --global user.name 'Hyuk'
@@ -81,10 +86,10 @@ git reset --hard <commit>
 git reset --hard origin/master
 ```
 
-## Github에 잘못 올린 파일을 지우는 방법
+## remove uploaded files on github.
 ```bash
 $ git rm --cached first_project/lib/home.dart
 $ git commit -m "Fixed untracked files"
-$ git push -u origin master
+$ git push -u origin main
 ```
 
