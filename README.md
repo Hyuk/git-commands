@@ -1,4 +1,4 @@
-# Git Command
+# Git Commands
 
 ## First Setup
 ```bash
@@ -69,6 +69,11 @@ $ git config --global user.name 'Hyuk'
 * User Email Setup
 ```bash
 $ git config --global user.email 'hyukho83@gmail.com'
+```
+
+* Change git remote
+```bash
+$ git remote set-url origin https://github.com/user/new-git-repository.git
 ```
 
 ## Rebase Setup
