@@ -11,100 +11,98 @@ git remote add origin https://github.repository.address.git
 git push -u origin main
 ```
 
-## Instructions
-
-- Version Check
+## Version Check
 
 ```bash
 $ git --version
 ```
 
-- Initialize Local Git Repository
+## Initialize Local Git Repository
 
 ```bash
 $ git init
 ```
 
-- User Name setup
+## User Name setup
 
 ```bash
 $ git config --global user.name 'Hyuk'
 ```
 
-- User Email Setup
+## User Email Setup
 
 ```bash
 $ git config --global user.email 'hyukho83@gmail.com'
 ```
 
-- Check Status Of Working Tree
+## Check Status Of Working Tree
 
 ```bash
 $ git status
 ```
 
-- Add Files to Index
+## Add Files to Index
 
 ```bash
 $ git add <file>
 ```
 
-- Remove file from staged area #1
+## Remove file from staged area #1
 
 ```bash
 $ git restore --stage <file>
 ```
 
-- Remove file from staged area #2
+## Remove file from staged area #2
 
 ```bash
 $ git rm --cached <file>
 
 ```
 
-- Commit Changes In Index
+## Commit Changes In Index
 
 ```bash
 $ git commit
 ```
 
-- Change name of the master branch to main
+## Change name of the master branch to main
 
 ```bash
 $ git branch -M main
 ```
 
-- Push to Remote Repository
+## Push to Remote Repository
 
 ```bash
 $ git push
 ```
 
-- Pull Latest From Remote Repository
+## Pull Latest From Remote Repository
 
 ```bash
 $ git pull
 ```
 
-- Clone Repository Into A New Directory
+## Clone Repository Into A New Directory
 
 ```bash
 $ git clone repository-url
 ```
 
-- list out git settings
+## list out git settings
 
 ```base
 $ git config --list
 ```
 
-- check git remote url
+## check git remote url
 
 ```bash
 $ git remote -v
 ```
 
-- Change git remote
+## Change git remote
 
 ```bash
 $ git remote set-url origin https://github.com/user/new-git-repository.git
@@ -134,4 +132,28 @@ git reset --hard origin/master
 $ git rm --cached first_project/lib/home.dart
 $ git commit -m "Fixed untracked files"
 $ git push -u origin main
+```
+
+## Check who and when made changes
+
+```bash
+$ git blame <file>
+```
+
+## Check who and when made changes from line 1 to 10
+
+```bash
+$ git blame -L 1,10 <file>
+```
+
+## Check who and when made changes from line 1 to 10 with long format
+
+```bash
+$ git blame -l <file>
+```
+
+## Check commit history
+
+```bash
+$ git log
 ```
